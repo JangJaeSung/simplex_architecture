@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <!-- High Performance Mode -->
+  <node pkg="simplex_architecture" name="Hgih_Perfomance_Mode" type="High_Performance_Mode" output="screen" />
+
+  <!-- Checker -->
+  <node pkg="simplex_architecture" name="Checker" type="Checker" output="screen" />
+
+</launch>
