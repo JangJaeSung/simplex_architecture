@@ -6,4 +6,7 @@
   <!-- Checker -->
   <node pkg="simplex_architecture" name="Checker" type="Checker" output="screen" />
 
+  <!-- Safety Performance Mode -->
+  <node pkg="simplex_architecture" name="Safety_Performance_Mode" type="Safety_Performance_Mode" output="screen" />
+
 </launch>
